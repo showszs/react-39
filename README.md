@@ -1,8 +1,9 @@
-# React + Vite
+# Створення компонентів за допомогою классу та функціонального спосібу.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`Створив батківський компонент App котрий через пропси передає функції (incrementCount, decrementCount, resetCount)  для дочірнього компоненту ChildButton(через натискання змінюється стан батьківського елементу) та текст кнопки.`
+\
+`Створив хук для відображення та оновлення стану (useState).`
+\
+`Компонент ChildButton спочатку створив через функцію а потім поміняв на класс.`
+\
+Використовувати функціональний спосіб було для мене легше ніж классовий.Код є більш читабельний та зрозумілим.
